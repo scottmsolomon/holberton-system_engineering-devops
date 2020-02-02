@@ -1,2 +1,2 @@
 #!/bin/bash
-find .js | rm *.js preserve-dir
+find . *.js | rm preserve-dir
