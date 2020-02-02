@@ -1,4 +1,3 @@
-julien@ubuntu:/tmp/0x02$ cat /etc/passwd
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin
@@ -41,48 +40,3 @@ usbmux:x:120:46:usbmux daemon,,,:/var/lib/usbmux:/bin/false
 julien:x:1000:1000:Julien Barbier,,,:/home/julien:/bin/bash
 guillaume:x:1001:1001:,,,:/home/guillaume:/bin/bash
 betty:x:1002:1002::/home/betty:
-julien@ubuntu:/tmp/0x02$
-julien@ubuntu:/tmp/0x02$ ./22-users_and_homes 
-_apt:/nonexistent
-avahi-autoipd:/var/lib/avahi-autoipd
-avahi:/var/run/avahi-daemon
-backup:/var/backups
-betty:/home/betty
-bin:/bin
-colord:/var/lib/colord
-daemon:/usr/sbin
-dnsmasq:/var/lib/misc
-games:/usr/games
-gnats:/var/lib/gnats
-guillaume:/home/guillaume
-hplip:/var/run/hplip
-irc:/var/run/ircd
-julien:/home/julien
-kernoops:/
-lightdm:/var/lib/lightdm
-list:/var/list
-lp:/var/spool/lpd
-mail:/var/mail
-man:/var/cache/man
-messagebus:/var/run/dbus
-news:/var/spool/news
-nobody:/nonexistent
-proxy:/bin
-pulse:/var/run/pulse
-root:/root
-rtkit:/proc
-saned:/var/lib/saned
-speech-dispatcher:/var/run/speech-dispatcher
-sync:/bin
-sys:/dev
-syslog:/home/syslog
-systemd-bus-proxy:/run/systemd
-systemd-network:/run/systemd/netif
-systemd-resolve:/run/systemd/resolve
-systemd-timesync:/run/systemd
-usbmux:/var/lib/usbmux
-uucp:/var/spool/uucp
-uuidd:/run/uuidd
-whoopsie:/nonexistent
-www-data:/var/www
-julien@ubuntu:/tmp/0x02$ 
