@@ -1,2 +1,2 @@
 #!/bin/bash
-find -depth *.js | rm .js
+find -maxdepth *.js | rm .js
